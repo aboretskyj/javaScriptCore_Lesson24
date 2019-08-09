@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore.js"></script>
+    <script defer src="cars.js"></script>
+    <title>Cars</title>
+</head>
+<body>
+    <style>
+        body{
+            text-align: center;
+            margin: 0 auto;
+        }
+        button{
+            width: 180px;
+            height: 50px;
+            margin: 5px;
+        }
+        .content-wrapper{
+            widows: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <div class="content-wrapper">
+        <h2>Press the button to get result in console</h2>
+        <button id="groop-by-brandname">Groop by brandname</button>
+        <button id="groop-by-model">Groop by model</button>
+        <button id="groop-by-prodyear">Groop by production year</button>
+        <button id="filter-by-year">Filter by production year</button>
+        <button id="newest-car">Find newest car</button>
+        <button id="oldest-car">Find oldest car</button>
+    </div>
+    
+    
+</body>
+</html>
